@@ -67,7 +67,7 @@ nav ul li a:hover {
 #main {
     clear: both;
 }
-.leftSide {
+#main .leftSide {
     float: left;
     width: 50%;
 	-webkit-box-sizing: border-box;
@@ -75,7 +75,7 @@ nav ul li a:hover {
 	box-sizing: border-box;
 	margin: 10px 1% 10px -2%;
 }
-.rightSide {
+#main .rightSide {
 	float: right;
     width: 48%;
 	-webkit-box-sizing: border-box;
@@ -91,6 +91,10 @@ h3 {
     padding-top: 12px;
     padding-bottom: 12px; 
 }
+h5 {
+	padding-left: 5%;
+}
+
 #DeviantArt {
 	width: 85%;
 	display: block;
@@ -106,7 +110,7 @@ h3 {
     color: #fff;
 }
 
-.list {
+.quals.list, .certs.list {
     display: none;
 }
 
