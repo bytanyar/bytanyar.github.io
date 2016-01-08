@@ -18,8 +18,8 @@
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/base.css" />
         
-        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-        <script type="text/javascript" src="js/base.js"></script>
+        <script type="text/javascript" src="script/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="script/base.js"></script>
     </head>
     
     <body>
@@ -104,6 +104,16 @@
         </div><!--/#container-->  
         
         <script>
+		$(document).ready(function(e) {
+            $('#qualifications').click(function(){
+				$('.quals.list').toggle();
+				$('.certs.list').hide();
+			})
+            $('#certifications').click(function(){
+				$('.certs.list').toggle();
+				$('.quals.list').hide();
+			})
+        });
 		</script>      
     </body>
 </html>
