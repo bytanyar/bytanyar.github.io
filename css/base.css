@@ -96,21 +96,17 @@ h5 {
 }
 
 #DeviantArt {
-	width: 85%;
+	width: 50%;
 	display: block;
 	margin: 0 auto;
 }
-.podsPurple a {
-	display: none;
-}
-
 .podsGreen, .podsPurple {
 	width: 100%;
     padding: 10px 2%;
     color: #fff;
 }
 
-.quals.list, .certs.list {
+.quals.list, .certs.list, .employers, .artwork {
     display: none;
 }
 
@@ -135,3 +131,11 @@ h5 {
     padding: 20px 0;
 }
 
+.bioHolder {
+	width: 50%;
+	margin: 0 auto;
+}
+.bio {
+	line-height: 25px;
+	padding-bottom: 40px;
+}
