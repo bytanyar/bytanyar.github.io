@@ -12,6 +12,11 @@ a {
     color: #424242;
 }
 
+p {
+	line-height: 1.5;
+	padding: 0 3%;
+}
+
 /*-------------------------Specific Styles--------------------------*/
 body {
     background: url(../images/bg.jpg) no-repeat;
