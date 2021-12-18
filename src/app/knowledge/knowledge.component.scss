@@ -1,0 +1,46 @@
+@import "../../vars.scss";
+
+.img-container {    
+    .img-fluid {
+        border-bottom: 5px solid #f1c68d;
+        border-left: 5px solid #f1c68d;
+    }
+}
+.input-container {
+    margin: 5px auto;
+
+    input {
+        border-color: #ccc;
+        border-radius: 2px;
+        margin: 0 5px;
+        padding: 5px 2px;
+    }
+    button {
+        border-color: #ccc;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+}
+
+ul {
+    li {
+        list-style-type: square;
+    }
+}
+@media screen and (max-width: 767px) {
+    .main-container {
+        flex-wrap: wrap-reverse;
+    }
+    .box-container {
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .img-container {
+        align-items: center;
+        display: flex;
+    }
+    ul {
+        columns: 2;
+    }        
+}
