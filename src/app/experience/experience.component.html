@@ -1,0 +1,16 @@
+<div class="main-container">
+    <h2>Experience</h2>
+
+    <ul *ngFor="let job of jobs" class="job-container">
+        <li class="list-unstyled">
+            <h3>{{ job.company }}</h3>
+            <div class="details-container">
+                <h4>{{ job.title }}</h4>
+                <p>{{ job.start }} to {{ job.end }}</p>
+                <ul *ngFor="let detail of job.details">
+                    <li>{{ detail }}</li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>

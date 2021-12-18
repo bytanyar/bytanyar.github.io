@@ -1,0 +1,45 @@
+@import "../../vars.scss";
+
+.cats-container {
+    padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    padding-right: calc(var(--bs-gutter-x) * .5) !important;
+}
+ul {
+    list-style-type: none;
+}
+.box-container {
+    align-items: flex-start;
+    min-height: 300px;
+    min-width: 300px;
+    
+    img {
+        border-radius: 25px;
+        max-width: 280px;
+    }
+}
+.heading {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .box-container {
+        min-height: 300px;
+        min-width: 400px;
+
+        img {
+            max-width: 500px;
+        }
+    }
+    .heading {
+        button {
+            margin-top: 1.5rem;
+        }
+    }
+}

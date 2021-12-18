@@ -1,0 +1,10 @@
+<div class="cats-container row">
+    <div class="heading row">
+        <h2 class="col-md-10 col-sm-9">Cats</h2>
+        <p class="col-md-2 col-sm-3"><button (click)="getNewCat()">New Cat</button></p>
+    </div>
+    <ul class="box-container d-flex justify-content-center" *ngFor="let cat of cats">
+        <li><h3>ID: {{ cat.id }}</h3>
+            <img [src]='cat.url' /></li>
+    </ul>
+</div>

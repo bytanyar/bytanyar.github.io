@@ -1,0 +1,31 @@
+@import "../../vars.scss";
+
+.box-container {
+    align-items: flex-start;
+    display: flex;
+    padding: 2rem;
+}
+.objective {
+    font-style: italic;
+}
+.top-row {
+    align-items: center;
+    display: flex;
+    padding-left: 1rem;
+}
+.img-container {
+    .img-fluid {
+        border-bottom: 5px solid $cream;
+        border-right: 5px solid $cream;
+    }
+}
+@media screen and (max-width: 767px) {
+    .box-container {
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .box-container {
+        max-height: 140px;
+    }
+}
