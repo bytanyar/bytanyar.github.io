@@ -12,6 +12,8 @@ import { Cat } from '../classes/cat';
 export class CatsComponent implements OnInit {
 
   cats: Cat[] = [];
+  loading: boolean = false;
+  errorMessage;
 
   constructor(public _catApiService: ApiCatService) { }
 
@@ -19,10 +21,21 @@ export class CatsComponent implements OnInit {
     this.getNewCat();
   }
   getNewCat() {
-    this._catApiService.getCats().subscribe(
+    this._catApiService.getCats()
+    .subscribe(
       data => {
+        console.log('response received');
         this.cats = data;
+      },
+      error => {                              //error() callback
+        console.error('Request failed with error');
+        this.errorMessage = error;
+        this.loading = false;
+      },
+      () => {                                   //complete() callback
+        console.log('Request completed');
+        this.loading = false; 
       }
-    );
+    )
   }
 }
