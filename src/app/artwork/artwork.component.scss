@@ -1,0 +1,11 @@
+.img-fluid {
+    max-height: 325px;
+
+    &:hover {
+        filter: brightness(55%);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+}

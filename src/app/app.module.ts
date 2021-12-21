@@ -6,10 +6,11 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TokenInterceptor } from './services/token-interceptor.service';
 
 import { AppComponent } from './app.component';
-import { DataComponent } from './knowledge/knowledge.component';
-import { HomeComponent } from './home/home.component';
-import { ExperienceComponent } from './experience/experience.component';
+import { ArtworkComponent } from './artwork/artwork.component';
 import { CatsComponent } from './cats/cats.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { HomeComponent } from './home/home.component';
+import { KnowledgeComponent } from './knowledge/knowledge.component';
 
 import { ApiCatService } from './services/cats.service';
 
@@ -17,10 +18,11 @@ import { ApiCatService } from './services/cats.service';
 @NgModule({
   declarations: [
     AppComponent,
-    DataComponent,
-    HomeComponent,
+    ArtworkComponent,
+    CatsComponent,
     ExperienceComponent,
-    CatsComponent
+    HomeComponent,
+    KnowledgeComponent
   ],
   imports: [
     BrowserModule,
