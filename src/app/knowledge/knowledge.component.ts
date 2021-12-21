@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './knowledge.component.html',
   styleUrls: ['./knowledge.component.scss']
 })
-export class DataComponent implements OnInit {
+export class KnowledgeComponent implements OnInit {
   knowledgeData = [
     "Adobe Creative Suite",
     "Agile/SCRUM",
