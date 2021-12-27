@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
+import { NgImageSliderModule } from 'ng-image-slider';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TokenInterceptor } from './services/token-interceptor.service';
 
@@ -27,7 +28,8 @@ import { ApiCatService } from './services/cats.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgImageSliderModule
   ],
   providers: [ApiCatService,
               { provide: HTTP_INTERCEPTORS, 
