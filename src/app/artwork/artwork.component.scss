@@ -1,7 +1,5 @@
-.img-fluid {
-    max-height: 325px;
-
+img.image {
     &:hover {
-        filter: brightness(120%);
+        filter: brightness(0.75);
     }
 }
