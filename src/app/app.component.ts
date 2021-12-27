@@ -20,8 +20,8 @@ export class AppComponent {
   onWindowScroll() {
     let timeout = null;
 
-    if (document.body.scrollTop > 20 ||     
-    document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 50 ||     
+    document.documentElement.scrollTop > 50) {
       document.getElementById('mainNav').classList.add('nav-up');
       document.getElementById('mainContainer').classList.add('nav-up');
       document.getElementById('mainNav').classList.remove('fade');
