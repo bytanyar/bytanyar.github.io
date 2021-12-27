@@ -1,7 +1,7 @@
 export interface Artwork {
     id: number;
-    url: string;
+    image: string;
     alt: string;
-    thumb: string;
+    thumbImage: string;
     title: string;
 }

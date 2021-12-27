@@ -1,14 +1,16 @@
 <div class="main-container mt-4">
     <h2>Paintings:</h2>
     <div class="row">
-        <div class="col-6 d-flex justify-content-center" *ngFor="let painting of paintings">
+        <ng-image-slider [images]="paintings" #nav></ng-image-slider>
+        <!-- <div class="col-6 d-flex justify-content-center" *ngFor="let painting of paintings">
             <img class="img-fluid mb-4" [src]=painting.url  [alt]=painting.alt />
-        </div>
+        </div> -->
     </div>
     <h2>Drawings:</h2>
     <div class="row">
-        <div class="col-6 d-flex justify-content-center" *ngFor="let drawing of drawings">
+        <ng-image-slider [images]="drawings" #nav></ng-image-slider>
+        <!-- <div class="col-6 d-flex justify-content-center" *ngFor="let drawing of drawings">
             <img class="img-fluid mb-4" [src]=drawing.url  [alt]=drawing.alt />
-        </div>
+        </div> -->
     </div>
 </div>
