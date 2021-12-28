@@ -31,6 +31,12 @@ export const DRAWINGS: Artwork[] = [
     thumbImage: 'assets/images/artwork/drawings/Tanya - 72.jpg', 
     title: 'Tanya'
   },
+  { id: 6, 
+    image: 'assets/images/artwork/drawings/Man head dwg - 72.jpg', 
+    alt: 'Man head', 
+    thumbImage: 'assets/images/artwork/drawings/Man head dwg - 72.jpg', 
+    title: 'Man head'
+  },
   { id: 7, 
     image: 'assets/images/artwork/drawings/Squiggle Man Reclined - 72.jpg', 
     alt: 'Squiggle man reclined', 
@@ -42,12 +48,6 @@ export const DRAWINGS: Artwork[] = [
     alt: 'WWII prep', 
     thumbImage: 'assets/images/artwork/drawings/WWII prep - 72.jpg', 
     title: 'WWII prep'
-  },
-  { id: 9, 
-    image: 'assets/images/artwork/drawings/Man head - 72.jpg', 
-    alt: 'Man head', 
-    thumbImage: 'assets/images/artwork/drawings/Man head - 72.jpg', 
-    title: 'Man head'
   }
 ]
 
@@ -76,10 +76,10 @@ export const PAINTINGS: Artwork[] = [
         thumbImage: 'assets/images/artwork/paintings/Orange - 72.jpg', 
         title: 'Orange'
     },
-    { id: 6, 
-      image: 'assets/images/artwork/paintings/Moms - 72.jpg', 
+    { id: 5, 
+      image: 'assets/images/artwork/paintings/Moms ptg - 72.jpg', 
       alt: 'Mom\'s painting', 
-      thumbImage: 'assets/images/artwork/paintings/Moms - 72.jpg', 
+      thumbImage: 'assets/images/artwork/paintings/Moms ptg - 72.jpg', 
       title: 'Mom\'s painting'
     }
   ]
