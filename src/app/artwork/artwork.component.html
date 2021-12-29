@@ -7,4 +7,18 @@
     <div class="row">
         <ng-image-slider [images]="drawings" #nav></ng-image-slider>
     </div>
+
+    <!-- <div class="row slideshow">
+        <ul class="images">
+            <li class="image" *ngFor="let drawing of drawings;">
+                <div class="thumb-container">
+                    <img class="thumb" [src]="drawing.thumbImage" (click)="showArtwork(drawing.specificId)" [alt]="drawing.alt" />
+                    <caption dir="ltr">{{ drawing.title }}</caption>
+                </div>
+                <div [id]="drawing.specificId" (click)="hideArtwork(drawing.specificId)" class="single-image">
+                    <img [src]="drawing.image" [alt]="drawing.alt" />
+                </div>
+            </li>
+        </ul>
+    </div> -->
 </div>
