@@ -40,13 +40,15 @@ ul {
     }
 }
 .single-image {
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgb(37, 36, 36);
     bottom: 0%;
     display: none;
+    height: 100%;
     left: 0%;
     position: absolute;
     right: 0%;
     top: 0%;
+    width: 100%;
 
     img {
         display: none;
@@ -56,9 +58,9 @@ ul {
     }
 }
 .single-image.show {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 
     img {
         display: block;

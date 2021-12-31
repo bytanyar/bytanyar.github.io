@@ -27,9 +27,18 @@ export class ArtworkComponent implements OnInit {
     this.paintings = this.artworkService.getPaintings();
   }
   showArtwork(id): void {
+    let thumbs = this.document.getElementsByClassName('thumb-container');
+    for(let i = 0; i < thumbs.length; i++){
+      this.document.getElementById(this.drawings[i].specificId + '-thumb').style.display = "none";
+    }
     this.document.getElementById(id).classList.add('show');
   }
   hideArtwork(id): void {
+    let thumbs = this.document.getElementsByClassName('thumb-container');
+    for(let j = 0; j < thumbs.length; j++){
+      this.document.getElementById(this.drawings[j].specificId + '-thumb').style.display = "block";
+    }
     this.document.getElementById(id).classList.remove('show');
+    
   }
 }
