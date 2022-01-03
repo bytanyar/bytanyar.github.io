@@ -12,17 +12,21 @@
         </div>
 
         <!-- <div class="row slideshow">
-            <ul class="images">
-                <li class="image" *ngFor="let drawing of drawings;">
-                    <div [id]="drawing.specificId+'-thumb'"class="thumb-container">
-                        <img class="thumb" [src]="drawing.thumbImage" (click)="showArtwork(drawing.specificId)" [alt]="drawing.alt" />
-                        <caption dir="ltr">{{ drawing.title }}</caption>
-                    </div>
-                    <div [id]="drawing.specificId" (click)="hideArtwork(drawing.specificId)" class="single-image">
-                        <img [src]="drawing.image" [alt]="drawing.alt" />
-                    </div>
-                </li>
-            </ul>
+            <div class="image-container">
+                <a class="prev icons prev-icon" (click)="prevDrawing()">‹</a>
+                <ul class="images">
+                    <li class="image" *ngFor="let drawing of drawings;">
+                        <div [id]="drawing.specificId+'-thumb'"class="thumb-container">
+                            <img class="thumb" [src]="drawing.thumbImage" (click)="showArtwork(drawing.specificId)" [alt]="drawing.alt" />
+                            <caption dir="ltr">{{ drawing.title }}</caption>
+                        </div>
+                        <div [id]="drawing.specificId" (click)="hideArtwork(drawing.specificId)" class="single-image">
+                            <img [src]="drawing.image" [alt]="drawing.alt" />
+                        </div>
+                    </li>
+                </ul>
+                <a class="next icons next-icon" (click)="nextDrawing()">›</a>
+            </div>
         </div> -->
     </div>
 </div>

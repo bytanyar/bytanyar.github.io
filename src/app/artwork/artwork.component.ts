@@ -12,6 +12,8 @@ export class ArtworkComponent implements OnInit {
 
   drawings: Artwork[] =[];
   paintings: Artwork[] =[];
+  selectedDrawing = 0;
+  prevIcon = 0;
   
   constructor(
     private artworkService: ArtworkService,
@@ -40,5 +42,21 @@ export class ArtworkComponent implements OnInit {
     }
     this.document.getElementById(id).classList.remove('show');
     
+  }
+  prevDrawing(): void {
+    if(this.selectedDrawing == 0){
+      this.selectedDrawing = this.drawings.length;
+    } else {
+      this.selectedDrawing--;
+    }
+    console.log('prev:', this.selectedDrawing);
+  }
+  nextDrawing(): void {
+    if(this.selectedDrawing == this.drawings.length){
+      this.selectedDrawing = 0;
+    } else {
+      this.selectedDrawing++;
+    }
+    console.log('next:', this.selectedDrawing);
   }
 }
