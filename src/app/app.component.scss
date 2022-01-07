@@ -5,6 +5,7 @@
   font-family: "Calibri", 'Arial', sans-serif;
   padding: 1rem 1rem 3rem;
 }
+
 #mainVideo {
   background-color: $blue;
   bottom: 0;
@@ -12,6 +13,9 @@
   min-height: 100%;
   position: fixed;
   right: 0;
+  z-index: -1;
+}
+.body-row {
   z-index: -1;
 }
 .fade {
@@ -28,6 +32,7 @@
   position: fixed;
   top: 0;
   width: calc(100% + 4rem);
+  z-index: 999999;
 
   .constrainer {
     max-width: 950px;
@@ -59,6 +64,8 @@
   }
   nav {
     display: inline-block;
+    margin-left: 2rem;
+    margin-top: 1rem;
     padding-right: 10%;
 
     a {
@@ -87,6 +94,7 @@ h1 {
 
   a {
     color: #fff;
+    font-size: 3rem;
     text-decoration: none;
 
     &:hover {
@@ -121,11 +129,13 @@ nav {
       }
     }
   }
+  h1 {
+    a {
+      font-size: 1.75rem;
+    }
+  }
 }
 @media screen and (max-width: 767px) {
-  h1 {
-    font-size: 4rem;
-  }
   nav {
     display: flex;
     flex-wrap: wrap;
@@ -136,7 +146,34 @@ nav {
     }
   }
 }
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
 @media screen and (min-width: 768px) {
+  aside {
+    background-color: $background-white;
+    margin-bottom: -3rem;
+    margin-left: -3rem;
+    margin-top: -5rem;
+    min-height: 150vh;
+    position: relative;
+
+    h1 {
+      color: $purple;
+      left: 0;
+      position: absolute;
+      text-align: right;
+      top: 38rem;
+      transform: rotate(-90deg);
+      transform-origin: 0 0;
+
+      a {
+        color: $purple;
+      }
+    }
+  }
   #mainNav.header-container.nav-up {
     nav {
       background: none;

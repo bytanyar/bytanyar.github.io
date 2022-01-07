@@ -4,18 +4,27 @@
     poster='assets/images/home.jpg'>
   </video>
   
-  <div id="mainNav" class="header-container row">
-    <div class="constrainer">
-      <div class="main-header">
-        <h1 class="navbar-brand"><a href="/">{{title}}</a></h1>
-        <nav>
-          <a routerLink="/artwork">Artwork</a>
-          <a routerLink="/cats">Cats</a>
-        </nav>
-      </div>  
+  <div class="body-row row">
+    <aside class="col-md-3">
+      <h1>{{ title }} <a href="mailto:bytanyar@yahoo.com">bytanyar@yahoo.com</a></h1>
+    </aside>
+    <div class="col-md-9">
+      <div id="mainNav" class="header-container row">
+        <div class="constrainer">
+          <div class="main-header">
+            <nav>
+              <a routerLink="/">Home</a>
+              <a routerLink="/artwork">Artwork</a>
+              <a routerLink="/cats">Cats</a>
+            </nav>
+          </div>  
+        </div>
+      </div>
+      <div id="mainContainer" class="main-container">
+        <div class="">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
     </div>
-  </div>
-  <div id="mainContainer" class="main-container row">
-    <router-outlet></router-outlet>
   </div>
 </div>
