@@ -1,10 +1,32 @@
-<div class="main-container mt-4">
-    <h2>Paintings:</h2>
-    <div class="row">
-        <ng-image-slider [images]="paintings" #nav></ng-image-slider>
+<div id="artwork" class="main-container mt-4">
+    <div class="paintings">
+        <h2>Paintings:</h2>
+        <div class="row">
+            <ng-image-slider [images]="paintings" #nav></ng-image-slider>
+        </div>
     </div>
-    <h2>Drawings:</h2>
-    <div class="row">
-        <ng-image-slider [images]="drawings" #nav></ng-image-slider>
+    <div class="drawings">
+        <h2>Drawings:</h2>
+        <div class="row">
+            <ng-image-slider [images]="drawings" #nav></ng-image-slider>
+        </div>
+
+        <!-- <div class="row slideshow">
+            <div class="image-container">
+                <a class="prev icons prev-icon" (click)="prevDrawing()">‹</a>
+                <ul class="images">
+                    <li class="image" *ngFor="let drawing of drawings;">
+                        <div [id]="drawing.specificId+'-thumb'"class="thumb-container">
+                            <img class="thumb" [src]="drawing.thumbImage" (click)="showArtwork(drawing.specificId)" [alt]="drawing.alt" />
+                            <caption dir="ltr">{{ drawing.title }}</caption>
+                        </div>
+                        <div [id]="drawing.specificId" (click)="hideArtwork(drawing.specificId)" class="single-image">
+                            <img [src]="drawing.image" [alt]="drawing.alt" />
+                        </div>
+                    </li>
+                </ul>
+                <a class="next icons next-icon" (click)="nextDrawing()">›</a>
+            </div>
+        </div> -->
     </div>
 </div>
