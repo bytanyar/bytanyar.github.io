@@ -119,9 +119,10 @@ nav {
     }
   }
 }
-@media screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 1.5), 
-(min-resolution: 144dpi) and (-webkit-min-device-pixel-ratio: 1.25), 
-(min-resolution: 120dpi) {
+@media screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 1.25), 
+(min-resolution: 120dpi)  and (-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi)and (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
   #mainNav.header-container.nav-up {
     nav {
       margin-bottom: 5px;
