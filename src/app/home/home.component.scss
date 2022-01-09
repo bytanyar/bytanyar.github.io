@@ -23,6 +23,10 @@
     .box-container {
         margin-bottom: 1rem;
     }
+    .top-row, 
+    .second-row {
+        padding: 0 1rem;
+    }
 }
 @media screen and (min-width: 768px) {
     .box-container {
