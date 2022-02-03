@@ -3,13 +3,20 @@ img.image {
         filter: brightness(0.75);
     }
 }
+.image-container,
+.images {
+    position: relative;
+}
 ul {
     align-items: center;
     display: flex;
     flex-wrap: nowrap;
+    left: --left;
     max-width: 100%;
     overflow: hidden;
     padding-inline-start: 0 !important;
+    position: absolute;
+    top: 0;
 
     li {
         list-style-type: none;
@@ -68,7 +75,8 @@ ul {
     }
 }
 .image-container {
-    position: relative;
+    min-height: 200px;
+    overflow: hidden;
 }
 .icons {
     background: rgba(255, 255, 255, 0.55);

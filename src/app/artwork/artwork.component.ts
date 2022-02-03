@@ -13,7 +13,9 @@ export class ArtworkComponent implements OnInit {
   drawings: Artwork[] =[];
   paintings: Artwork[] =[];
   selectedDrawing = 0;
+  imageMove = 0;
   prevIcon = 0;
+  public selectedindex: number = 0;
   
   constructor(
     private artworkService: ArtworkService,
@@ -43,20 +45,32 @@ export class ArtworkComponent implements OnInit {
     this.document.getElementById(id).classList.remove('show');
     
   }
+
+  selectDrawing(index: number) {
+    this.selectedindex = index;
+  }
   prevDrawing(): void {
     if(this.selectedDrawing == 0){
       this.selectedDrawing = this.drawings.length;
+      this.imageMove = this.selectedDrawing * 160;
+      this.document.getElementById('images').style.left = this.imageMove + 'px';
     } else {
       this.selectedDrawing--;
+      this.imageMove = this.selectedDrawing * 160;
+      this.document.getElementById('images').style.left = this.imageMove + 'px';
     }
-    console.log('prev:', this.selectedDrawing);
+    console.log('prev:', this.imageMove);
   }
   nextDrawing(): void {
     if(this.selectedDrawing == this.drawings.length){
       this.selectedDrawing = 0;
+      this.imageMove = 0;
+      this.document.getElementById('images').style.left = this.imageMove + 'px';
     } else {
       this.selectedDrawing++;
+      this.imageMove = this.selectedDrawing * -160;
+      this.document.getElementById('images').style.left = this.imageMove + 'px';
     }
-    console.log('next:', this.selectedDrawing);
+    console.log('next:', this.imageMove);
   }
 }
