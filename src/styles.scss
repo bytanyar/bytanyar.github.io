@@ -6,7 +6,6 @@ h2 {
     color: $cream;
     font-size: 2.5rem;
     margin-top: 2rem !important;
-    padding-left: 10px;
 }
 h3 {
     border-bottom: 4px solid $cream;
@@ -24,10 +23,9 @@ h3 {
     padding: 1rem;
 }
 
-@media screen and (min-width: 768px) {
-    h2 {
-        // background: $linear-gradient;
-        border-radius: 25px;
-        padding-left: 25px;
-    }
-}
+// @media screen and (min-width: 768px) {
+//     h2 {
+//         background: $linear-gradient;
+//         border-radius: 25px;
+//     }
+// }
