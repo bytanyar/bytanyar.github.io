@@ -11,6 +11,7 @@ import { ArtworkComponent } from './artwork/artwork.component';
 import { CatsComponent } from './cats/cats.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { HomeComponent } from './home/home.component';
+import { NewhomeComponent } from './newhome/newhome.component';
 import { KnowledgeComponent } from './knowledge/knowledge.component';
 
 import { ApiCatService } from './services/cats.service';
@@ -23,7 +24,9 @@ import { ApiCatService } from './services/cats.service';
     CatsComponent,
     ExperienceComponent,
     HomeComponent,
-    KnowledgeComponent
+    NewhomeComponent,
+    KnowledgeComponent,
+    NewhomeComponent
   ],
   imports: [
     BrowserModule,
