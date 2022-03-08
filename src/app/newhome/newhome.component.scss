@@ -1,0 +1,28 @@
+@import "../../vars.scss";
+
+#mainNav {
+    background-color: #fff;
+    border-bottom: 5px solid $cream;
+    margin: 1em 0;
+    padding: 2em 0;
+
+    nav {
+        a {
+            border: $purple 1px solid;
+            border-radius: 5px;
+            color: $purple;
+            margin-left: 0.25em;
+            margin-right: 0.25em;
+            padding: 0.5em;
+            text-decoration: none;
+
+            &:first-of-type {
+                margin-left: 0;
+            }
+            &:hover {
+                background: $linear-gradient;
+                color: #fff;
+            }
+        }
+    }
+}
