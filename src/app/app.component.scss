@@ -2,6 +2,8 @@
 @import "../vars.scss";
 
 .body {
+  background: $blue;
+  background: linear-gradient(90deg, $blue 0%, $purple 49%, $blue 100%);
   font-family: "Calibri", 'Arial', sans-serif;
   padding: 3rem 1rem;
   
@@ -13,15 +15,6 @@
   //         mask: var(--mask);
 }
 
-#mainVideo {
-  background-color: $blue;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  position: fixed;
-  right: 0;
-  z-index: -1;
-}
 .body-row {
   z-index: -1;
 }
