@@ -79,6 +79,15 @@
     }
   }
 }
+footer {
+  color: #fff;
+
+  .copyright {
+    max-width: 950px;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+}
 #mainContainer.main-container.nav-up {
   margin-top: 40px;
 } 
@@ -199,4 +208,10 @@ nav {
       }
     }
   }  
+}
+footer {
+  .copyright {
+    background: $linear-gradient;
+    border-radius: 0 15px 15px 0;
+  }
 }
