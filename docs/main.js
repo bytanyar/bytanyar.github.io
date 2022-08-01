@@ -583,6 +583,19 @@ const JOBS = [
             'Present designs to peers',
             'Showcase what makes each client awesome and help them book more units through their website'
         ] },
+    { id: 3,
+        company: 'Freelance work',
+        start: '2022',
+        end: 'Present',
+        title: 'Web Developer',
+        details: [
+            'Adjust and fine tune poor images in PhotoShop',
+            'Size images for improved web performance',
+            'Website administration/transfer for Squarespace website',
+            'Redesign page to include multiple additional images',
+            'Domain administration/transfer',
+            'Google My Business listing administration/transfer'
+        ] },
 ];
 
 
@@ -729,24 +742,24 @@ class KnowledgeComponent {
             "Angular 9",
             "Bootstrap",
             "CSS 3/SCSS/LESS",
+            "Express",
             "Figma",
             "Gatsby",
-            "Git",
+            "Git/GitHub",
             "Git Kraken/Sourcetree",
-            "GitHub",
             "HTML 5",
             "HubSpot",
             "JavaScript",
             "Jira",
             "JQuery",
             "JSON",
+            "MongoDB/Mongoose",
             "Node",
             "React JS",
             "Responsive Web Design",
             "Sketch",
             "Storybook",
             "Team City",
-            "Typescript",
             "Zeplin"
         ];
     }
