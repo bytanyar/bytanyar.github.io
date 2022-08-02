@@ -5,6 +5,14 @@
     display: flex;
     padding: 2rem;
 }
+.education-container {
+    align-items: center;
+    background-color: #fff;
+    background-color: $background-white;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 1rem;
+}
 .objective {
     font-style: italic;
 }
