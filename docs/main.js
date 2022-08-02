@@ -502,7 +502,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 14, vars: 0, consts: [[1, "main-container"], [1, "top-row", "row", "d-flex", "align-items-center"], [1, "box-container", "col-md-9"], [1, "objective"], [1, "img-container", "col-md-3"], ["href", "https://www.claytonhomes.com/dream-to-reality/", "target", "_blank"], ["src", "../../assets/images/dream-to-reality.png", "alt", "Dream to Reality", 1, "img-fluid", "dream-img"], [1, "second-row", "row"], [1, "third-row", "row"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 33, vars: 0, consts: [[1, "main-container"], [1, "top-row", "row", "d-flex", "align-items-center"], [1, "box-container", "col-md-9"], [1, "objective"], [1, "img-container", "col-md-3"], ["href", "https://www.claytonhomes.com/dream-to-reality/", "target", "_blank"], ["src", "../../assets/images/dream-to-reality.png", "alt", "Dream to Reality", 1, "img-fluid", "dream-img"], [1, "second-row", "row"], [1, "third-row", "row"], [1, "fourth-row", "row"], [1, "job-container"], [1, "entry"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "h2");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1, "Objective");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -525,6 +525,37 @@ HomeComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](13, "app-experience");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](16, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](17, "Education");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](18, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](19, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](20, "Coding Dojo - Bootcamp");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](21, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](22, "Black Belt - MERN Stack");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](23, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](24, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](25, "Pellissippi State Technical Comminity College, Knoxville, TN");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](26, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](27, "Associate of Applied Science Degree in Media Technologies - Web");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](28, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](29, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](30, "University of Tennessee, Knoxville, TN");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](31, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](32, "Completed three years of coursework (Painting/Drawing major)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     } }, directives: [_knowledge_knowledge_component__WEBPACK_IMPORTED_MODULE_0__.KnowledgeComponent, _experience_experience_component__WEBPACK_IMPORTED_MODULE_1__.ExperienceComponent], styles: [".box-container[_ngcontent-%COMP%] {\n  align-items: flex-start;\n  display: flex;\n  padding: 2rem;\n}\n\n.objective[_ngcontent-%COMP%] {\n  font-style: italic;\n}\n\n.top-row[_ngcontent-%COMP%] {\n  align-items: center;\n  display: flex;\n  padding-left: 1rem;\n}\n\n.img-container[_ngcontent-%COMP%]   .img-fluid[_ngcontent-%COMP%] {\n  border-bottom: 5px solid #f1c68d;\n  border-right: 5px solid #f1c68d;\n  border-radius: 10px;\n}\n\n@media screen and (max-width: 767px) {\n  .box-container[_ngcontent-%COMP%] {\n    margin-bottom: 1rem;\n  }\n\n  .top-row[_ngcontent-%COMP%], .second-row[_ngcontent-%COMP%] {\n    padding: 0 1rem;\n  }\n}\n\n@media screen and (min-width: 768px) {\n  .box-container[_ngcontent-%COMP%] {\n    max-height: 140px;\n  }\n\n  .dream-img[_ngcontent-%COMP%] {\n    height: 125px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSx1QkFBQTtFQUNBLGFBQUE7RUFDQSxhQUFBO0FBREo7O0FBR0E7RUFDSSxrQkFBQTtBQUFKOztBQUVBO0VBQ0ksbUJBQUE7RUFDQSxhQUFBO0VBQ0Esa0JBQUE7QUFDSjs7QUFFSTtFQUNJLGdDQUFBO0VBQ0EsK0JBQUE7RUFDQSxtQkFBQTtBQUNSOztBQUVBO0VBQ0k7SUFDSSxtQkFBQTtFQUNOOztFQUNFOztJQUVJLGVBQUE7RUFFTjtBQUNGOztBQUFBO0VBQ0k7SUFDSSxpQkFBQTtFQUVOOztFQUFFO0lBQ0ksYUFBQTtFQUdOO0FBQ0YiLCJmaWxlIjoiaG9tZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgXCIuLi8uLi92YXJzLnNjc3NcIjtcclxuXHJcbi5ib3gtY29udGFpbmVyIHtcclxuICAgIGFsaWduLWl0ZW1zOiBmbGV4LXN0YXJ0O1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIHBhZGRpbmc6IDJyZW07XHJcbn1cclxuLm9iamVjdGl2ZSB7XHJcbiAgICBmb250LXN0eWxlOiBpdGFsaWM7XHJcbn1cclxuLnRvcC1yb3cge1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDFyZW07XHJcbn1cclxuLmltZy1jb250YWluZXIge1xyXG4gICAgLmltZy1mbHVpZCB7XHJcbiAgICAgICAgYm9yZGVyLWJvdHRvbTogNXB4IHNvbGlkICRjcmVhbTtcclxuICAgICAgICBib3JkZXItcmlnaHQ6IDVweCBzb2xpZCAkY3JlYW07XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICAgIH1cclxufVxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NjdweCkge1xyXG4gICAgLmJveC1jb250YWluZXIge1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07XHJcbiAgICB9XHJcbiAgICAudG9wLXJvdywgXHJcbiAgICAuc2Vjb25kLXJvdyB7XHJcbiAgICAgICAgcGFkZGluZzogMCAxcmVtO1xyXG4gICAgfVxyXG59XHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2OHB4KSB7XHJcbiAgICAuYm94LWNvbnRhaW5lciB7XHJcbiAgICAgICAgbWF4LWhlaWdodDogMTQwcHg7XHJcbiAgICB9XHJcbiAgICAuZHJlYW0taW1nIHtcclxuICAgICAgICBoZWlnaHQ6IDEyNXB4O1xyXG4gICAgfVxyXG59Il19 */"] });
 
@@ -543,8 +574,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const JOBS = [
     { id: 1,
-        company: 'Clayton Homes',
-        start: 'February 2009',
+        company: 'Vanderbilt Mortgage / Clayton Homes',
+        start: 'February 2010',
         end: 'January 2020',
         title: 'Account Specialist / Front End Developer',
         details: [
