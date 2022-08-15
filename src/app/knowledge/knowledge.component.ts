@@ -29,7 +29,6 @@ export class KnowledgeComponent implements OnInit {
     "Responsive Web Design",
     "Sketch",
     "Storybook",
-    "Team City",
     "Zeplin"
   ];
 
