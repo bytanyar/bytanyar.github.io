@@ -2,10 +2,10 @@ import { Job } from '../classes/job';
 
 export const JOBS: Job[] = [
   { id: 1, 
-    company: 'Vanderbilt Mortgage / Clayton Homes', 
-    start: 'February 2010', 
-    end: 'January 2020', 
-    title: 'Account Specialist / Front End Developer',
+    company: 'Clayton Homes', 
+    start: 'Nov 2014', 
+    end: 'Jan 2020', 
+    title: 'Front End Developer',
     details: [
     'Quality assurance to see that code matches design, intent, and accessibility',
     'Converting PSD compositions into HTML and CSS',
@@ -15,18 +15,12 @@ export const JOBS: Job[] = [
     'Write reusable code for UI components',
     'Utilize existing standards to maximize browser compatibility',
     'Building and testing responsive layouts',
-    'Given 10+ ACE awards for excellence',
-    'Managed a large base of 900+ mortgage loan account customers',
-    '100+ calls per day to counsel customers with past-due mortgage accounts to arrange payments or assist them in bringing accounts up to date',
-    'Recommended alternative mortgage payment options',
-    'Maintained strict compliance with regulations',
-    'Mentoring several newer employees',
-    'Earned recognition for achieving a 95% average score for call handling and customer service ability'
+    'Given 10+ ACE awards for excellence'
   ] },
   { id: 2, 
     company: 'StoragePug', 
-    start: 'March 2020', 
-    end: 'November 2021',
+    start: 'Mar 2020', 
+    end: 'Nov 2021',
     title: 'Junior Web Developer / Website Specialist', 
     details: [
     'Train others on design standards and using specialized CMS',
@@ -44,8 +38,8 @@ export const JOBS: Job[] = [
   ] },
   { id: 3, 
     company: 'Freelance work', 
-    start: '2022', 
-    end: 'Present', 
+    start: 'Feb 2022', 
+    end: 'Apr 2022', 
     title: 'Web Developer',
     details: [
     'Adjust and fine tune poor images in PhotoShop',
