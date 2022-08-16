@@ -8,7 +8,7 @@ import { ProjectService } from '../services/project.service';
   templateUrl: './technical.component.html',
   styleUrls: ['./technical.component.scss']
 })
-export class ExperienceComponent implements OnInit {
+export class TechnicalComponent implements OnInit {
 
   projects: Project[] = [];
 
