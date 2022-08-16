@@ -1,12 +1,17 @@
 @import "../../vars.scss";
 
-.job-container {
+.project-container {
     align-items: center;
     background-color: #fff;
     background-color: $background-white;
     border: 1px solid #ccc;
     border-radius: 25px;
     padding: 1rem;
+
+    h3 a {
+        cursor: pointer;
+        text-decoration: none;
+    }
 }
 
 .details-container {
