@@ -759,6 +759,7 @@ const PROJECTS = [
         name: 'GrocerySwap (Neighborhood-Bartering)',
         note: 'Group Project',
         description: 'A MERN based application for trading local food products to reduce waste and create eco-friendly food swaps in local neighborhoods',
+        url: 'https://github.com/RobertsonTanya/Neighborhood-Bartering',
         details: [
             'Work with two other students in a team effort to design a full CRUD application with functional create, read, update, and delete features',
             'Integrated React with one-to-many relationships using MongoDB to create trade commenting capabilities',
@@ -771,6 +772,7 @@ const PROJECTS = [
         name: 'Recipes',
         note: 'Solo Project',
         description: 'A MERN based application for collecting and using recipes',
+        url: 'https://github.com/RobertsonTanya/Recipes',
         details: [
             'Created a full CRUD application with functional create, read, update, and delete features from scratch',
             'Leveraged React with fully responsive CSS to populate a list of all recipes and their respective detailed pages',
@@ -1033,7 +1035,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function TechnicalComponent_ul_3_ul_7_Template(rf, ctx) { if (rf & 1) {
+function TechnicalComponent_ul_3_ul_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "ul");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
@@ -1048,20 +1050,25 @@ function TechnicalComponent_ul_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "ul", 2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "li", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "a", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h4");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](7, TechnicalComponent_ul_3_ul_7_Template, 3, 1, "ul", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "h4");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, TechnicalComponent_ul_3_ul_9_Template, 3, 1, "ul", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const project_r1 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("", project_r1.name, " | ", project_r1.note, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](project_r1.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" | ", project_r1.note, "");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](project_r1.description);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
@@ -1080,12 +1087,12 @@ class TechnicalComponent {
     }
 }
 TechnicalComponent.ɵfac = function TechnicalComponent_Factory(t) { return new (t || TechnicalComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_services_project_service__WEBPACK_IMPORTED_MODULE_0__.ProjectService)); };
-TechnicalComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: TechnicalComponent, selectors: [["app-technical"]], decls: 4, vars: 1, consts: [[1, "main-container"], ["class", "project-container", 4, "ngFor", "ngForOf"], [1, "project-container"], [1, "list-unstyled"], [1, "details-container"], [4, "ngFor", "ngForOf"]], template: function TechnicalComponent_Template(rf, ctx) { if (rf & 1) {
+TechnicalComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: TechnicalComponent, selectors: [["app-technical"]], decls: 4, vars: 1, consts: [[1, "main-container"], ["class", "project-container", 4, "ngFor", "ngForOf"], [1, "project-container"], [1, "list-unstyled"], ["href", "{{", "project.url", "", "}}", "", "target", "_blank"], [1, "details-container"], [4, "ngFor", "ngForOf"]], template: function TechnicalComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "h2");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "Technical Experience");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](3, TechnicalComponent_ul_3_Template, 8, 4, "ul", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](3, TechnicalComponent_ul_3_Template, 10, 4, "ul", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
