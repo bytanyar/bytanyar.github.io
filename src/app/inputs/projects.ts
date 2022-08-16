@@ -5,6 +5,7 @@ export const PROJECTS: Project[] = [
     name: 'GrocerySwap (Neighborhood-Bartering)', 
     note: 'Group Project', 
     description: 'A MERN based application for trading local food products to reduce waste and create eco-friendly food swaps in local neighborhoods',
+    url: 'https://github.com/RobertsonTanya/Neighborhood-Bartering',
     details: [
     'Work with two other students in a team effort to design a full CRUD application with functional create, read, update, and delete features',
     'Integrated React with one-to-many relationships using MongoDB to create trade commenting capabilities',
@@ -17,6 +18,7 @@ export const PROJECTS: Project[] = [
     name: 'Recipes', 
     note: 'Solo Project', 
     description: 'A MERN based application for collecting and using recipes',
+    url: 'https://github.com/RobertsonTanya/Recipes',
     details: [
     'Created a full CRUD application with functional create, read, update, and delete features from scratch',
     'Leveraged React with fully responsive CSS to populate a list of all recipes and their respective detailed pages',
