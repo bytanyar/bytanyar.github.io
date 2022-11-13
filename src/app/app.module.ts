@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { ArtworkComponent } from './artwork/artwork.component';
 import { CatsComponent } from './cats/cats.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { TechnicalComponent } from './technical/technical.component';
 import { HomeComponent } from './home/home.component';
 import { KnowledgeComponent } from './knowledge/knowledge.component';
 
@@ -22,6 +23,7 @@ import { ApiCatService } from './services/cats.service';
     ArtworkComponent,
     CatsComponent,
     ExperienceComponent,
+    TechnicalComponent,
     HomeComponent,
     KnowledgeComponent
   ],

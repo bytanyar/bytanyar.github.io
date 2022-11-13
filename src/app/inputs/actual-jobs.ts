@@ -2,9 +2,9 @@ import { Job } from '../classes/job';
 
 export const JOBS: Job[] = [
   { id: 1, 
-    company: 'Clayton Homes', 
-    start: 'November 2014', 
-    end: 'January 2020', 
+    company: 'Clayton Homes',
+    start: 'Nov 2014', 
+    end: 'Jan 2020', 
     title: 'Front End Developer',
     details: [
     'Received 10+ ACE awards for excellence',
@@ -19,8 +19,8 @@ export const JOBS: Job[] = [
   ] },
   { id: 2, 
     company: 'StoragePug', 
-    start: 'March 2020', 
-    end: 'November 2021',
+    start: 'Mar 2020', 
+    end: 'Nov 2021',
     title: 'Junior Web Developer / Website Specialist', 
     details: [
     'Showcase customer awesomeness to increased unit bookings through their website',
@@ -38,7 +38,7 @@ export const JOBS: Job[] = [
   ] },
   { id: 3, 
     company: 'Various Customers', 
-    start: 'December 2022', 
+    start: 'Dec 2021', 
     end: 'Present',
     title: 'Self-Employed/Freelance Frontend Developer and Coursework Full Stack Developer', 
     details: [

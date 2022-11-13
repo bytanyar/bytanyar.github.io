@@ -1,0 +1,30 @@
+@import "../../vars.scss";
+
+.project-container {
+    align-items: center;
+    background-color: #fff;
+    background-color: $background-white;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 1rem;
+
+    h3 a {
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+.details-container {
+    ul {
+        li {
+            list-style-type: square;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .details-container {
+        padding: 0 3rem 1rem;
+    }
+}
