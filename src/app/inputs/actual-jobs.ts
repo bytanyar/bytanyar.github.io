@@ -3,9 +3,9 @@ import { Job } from '../classes/job';
 export const JOBS: Job[] = [
   { id: 1, 
     company: 'Clayton Homes', 
-    start: 'February 2009', 
+    start: 'November 2014', 
     end: 'January 2020', 
-    title: 'Account Specialist / Front End Developer',
+    title: 'Front End Developer',
     details: [
     'Received 10+ ACE awards for excellence',
     'Ensure customer requirements met for presentation/coding',
