@@ -2,7 +2,7 @@ import { Job } from '../classes/job';
 
 export const JOBS: Job[] = [
   { id: 1, 
-    company: 'Clayton Homes',
+    company: 'Clayton Homes', 
     start: 'Nov 2014', 
     end: 'Jan 2020', 
     title: 'Front End Developer',
