@@ -3,22 +3,16 @@
 .box-container {
     align-items: flex-start;
     display: flex;
-    padding: 2rem;
-}
-.education-container {
-    align-items: center;
-    background-color: #fff;
-    background-color: $background-white;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    padding: 1rem;
-}
-.fifth-row {
     margin-bottom: 1rem;
-    padding: 0 1rem;
+    padding: 1rem 2rem 0; 
 }
-.objective {
+.objective,
+.summary {
+    font-size: 1.2em;
     font-style: italic;
+    font-weight: 600;
+    padding-left: 0;
+    text-align: left;
 }
 .top-row {
     align-items: center;
@@ -43,9 +37,6 @@
     }
 }
 @media screen and (min-width: 768px) {
-    .box-container {
-        max-height: 140px;
-    }
     .dream-img {
         height: 125px;
     }
